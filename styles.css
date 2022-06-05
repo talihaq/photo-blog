@@ -1,0 +1,25 @@
+img {
+    width: 30%;
+    margin: calc(10%/6);
+    opacity: 0.6;
+    transition: 1s;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid #e6e6e6;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2em;
+    color: #39393a;
+}
+
+nav span:hover {
+    color: #e9d758;
+}
